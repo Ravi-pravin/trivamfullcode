@@ -1,0 +1,138 @@
+.navBartopSection {
+    background: #223a66;
+}
+
+.mail {
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+
+.navBartopSection .col p {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.navBartopSection .col span {
+    font-size: 20.8px;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.navbar a {
+    font-weight: 600;
+    padding: 10px 15px;
+    color: #d36c2b;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.hero {
+    background-image: url(./assets/images/download.avif);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.cardSection .container {
+    position: relative;
+    top: -15rem;
+}
+
+.cardSection .card {
+    border-radius: 15px;
+    height: 30rem;
+    width: 30rem;
+    padding: 1rem 5rem;
+}
+
+.card i {
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.card p {
+    font-size: 1.4rem;
+    color: #6F8BA4;
+    font-weight: 400;
+}
+
+.card h3 {
+    font-size: 24px;
+}
+
+.button {
+    background-color: #223a66;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.8rem 2rem;
+    font-size: 14px;
+}
+
+.aboutus .col img {
+    height: 35rem;
+    width: auto;
+    margin: 1rem;
+}
+
+.aboutUs h3 {
+    font-size: 44px;
+    color: #662222;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.aboutUs p {
+    font-size: 16px;
+    color: #6f8ba4;
+    font-weight: 400;
+    margin-bottom: 4rem;
+    line-height: 3rem;
+}
+
+.aboutUs button {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    background: #d36c2b;
+    padding: 1rem 2rem;
+}
+
+.whatWe h3{
+    font-size: 44px;
+    color: #223a66;
+    font-weight: 700;
+}
+.whatWe hr {
+    width: 5rem;
+    background: #d36c2b;
+    height: 3px;
+}
+.whatWe .card {
+    border: 0;
+    background-color: #ce3030;
+    margin: 2rem;
+}
+
+
+.aboutUs h3 {
+    font-size: 44px;
+    color: #223a66;
+    font-weight: 700;
+}
+
+.aboutUs hr {
+    width: 5rem;
+    background: #d36c2b;
+    height: 3px;
+}
+
+.carousel-item img {
+    height: 10rem;
+    width: auto;
+}
