@@ -118,6 +118,13 @@
     background-color: #ce3030;
     margin: 2rem;
 }
+.headingpara{
+    font-size: 16px;
+    color: #6f8ba4;
+    font-weight: 400;
+    margin-bottom: 4rem;
+    line-height: 3rem;
+}
 
 
 .aboutUs h3 {
