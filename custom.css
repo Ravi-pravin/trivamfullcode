@@ -206,6 +206,7 @@ p {
 }
 .formimagecol{
     position: relative;
+    margin-bottom: 6rem;
 }
 .formnumber{
     background: #223a66;
@@ -213,7 +214,7 @@ p {
     padding: 2rem 4rem;
     position: absolute;
     bottom: -3rem;
-    right: 50%;
+    right: 3rem;
 }
 
 
