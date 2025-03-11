@@ -22,6 +22,7 @@
 }
 
 .navbar a {
+    font-family: var(--ffPrimary);
     font-weight: 600;
     padding: 10px 15px;
     color: #d36c2b;
@@ -52,7 +53,7 @@
 }
 
 .card i {
-    font-size: 3rem;
+    font-size: 5rem;
     margin: 1rem;
 }
 
@@ -62,8 +63,11 @@
     font-weight: 400;
 }
 
-.card h3 {
-    font-size: 24px;
+.card h5 {
+    font-size: 2.4rem;
+    font-family: var(--ffPrimary);
+    font-weight: 700;
+    color: #223a66;
 }
 
 .button {
@@ -103,22 +107,25 @@
     padding: 1rem 2rem;
 }
 
-.whatWe h3{
+.whatWe h3 {
     font-size: 44px;
     color: #223a66;
     font-weight: 700;
 }
+
 .whatWe hr {
     width: 5rem;
     background: #d36c2b;
     height: 3px;
 }
+
 .whatWe .card {
     border: 0;
     background-color: #ce3030;
     margin: 2rem;
 }
-.headingpara{
+
+.headingpara {
     font-size: 16px;
     color: #6f8ba4;
     font-weight: 400;
@@ -127,19 +134,116 @@
 }
 
 
-.aboutUs h3 {
-    font-size: 44px;
-    color: #223a66;
-    font-weight: 700;
+.carousel-item img {
+    height: 10rem;
+    width: auto;
 }
 
-.aboutUs hr {
+.weOffer {
+    background-image: url(./assets/images/weoffer.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.weOffer .row {
+    padding: 10rem 10rem;
+}
+
+.weOffer hr {
     width: 5rem;
     background: #d36c2b;
     height: 3px;
 }
 
-.carousel-item img {
-    height: 10rem;
-    width: auto;
+.weOffer .card h2,
+p {
+    font-family: var(--ffPrimary);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.weOffer .card p {
+    font-family: var(--ffPrimary);
+    font-size: 2rem;
+    font-weight: 700;
+    color: #662222;
+}
+
+.weofferbtn {
+    background-color: #d36c2b;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 1rem 1.5rem;
+}
+.footer .col{
+    margin: 2rem 0rem;
+}
+.footer img{
+    margin-bottom: 3rem;
+}
+.footer hr{
+    width: 5rem;
+    background: #d36c2b;
+    height: 3px;
+}
+.footer h2{
+    font-size: 2.3rem;
+    color: #223a66;
+    font-weight: 700;
+}
+.footer p{
+    font-size: 16px;
+    color: #6f8ba4;
+    font-weight: 400;
+    margin-bottom: 4rem;
+    line-height: 3rem;
+}
+.footer .mediaicon i{
+    font-size: 16px;
+    background-color: #6f8ba4;
+    padding: 2rem;
+}
+.footer.mediaicon{
+    font-size: 16px;
+    background-color: #6f8ba4;
+    cursor: pointer;
+}
+.contacticon{
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.footer a{
+    font-size: 16px;
+    color: #6f8ba4;
+    font-weight: 400;
+    margin-bottom: 4rem;
+    line-height: 3rem;
+}
+.footer a:hover{
+    color: #d36c2b;
+    transition: 3sec;
+}
+.footer span{
+    font-size: 2.3rem;
+    color: #000000;
+    font-weight: 700;
+}
+
+
+.copyright .row{
+    padding: 3rem 0rem;
+}
+.copyright p{
+    font-family: var( --ffSecondary);
+    font-size: 16px;
+    color: #6f8ba4;
+    font-weight: 400;
+}
+.copyright p span{
+    font-size: 16px;
+    color: #222222;
+    font-weight: 600;
 }

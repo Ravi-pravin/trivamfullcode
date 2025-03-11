@@ -1,7 +1,7 @@
 /* Default code Starts here */
 
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -19,8 +19,8 @@ html {
 
 body {
     background-color: #ffffff;
-    font-family: "Merienda", serif;
-    font-family: "Nunito Sans", serif;
+    font-family: "Exo", sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 1.5;
     font-size: 1.6rem;
     -webkit-font-smoothing: antialiased;
@@ -55,7 +55,9 @@ svg {
     display: block;
     max-width: 100%;
 }
-
+ul{
+    list-style-type: none;
+}
 :root {
     --primaryColor: #BE9C79;
     --secondaryColor: #d5a637;
@@ -64,8 +66,8 @@ svg {
     --lightColor: #f1ebe3;
     --regularFont: 1.4rem;
     --headingFont: 2rem;
-    --ffPrimary: "Merienda", serif;
-    --ffSecondary: "Nunito Sans", serif;
+    --ffPrimary: "Exo", serif;
+    --ffSecondary: "Roboto", serif;
 }
 
 /* project standard classes Starts */
