@@ -121,8 +121,10 @@
 
 .whatWe .card {
     border: 0;
-    background-color: #ce3030;
+    /* background-color: #ce3030; */
     margin: 2rem;
+    box-shadow: #6F8BA4;
+    box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.2);
 }
 
 .headingpara {
@@ -177,6 +179,61 @@ p {
     font-weight: 700;
     padding: 1rem 1.5rem;
 }
+
+
+.formsection{
+    margin: 2rem 0rem;
+}
+.formHeading{
+    font-family: var(--ffPrimary);
+    color: #662222;
+    font-size: 4.4rem;
+}
+.formpara{
+    color: #6f8ba4;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+.form-control-lg{
+    padding: 1.5rem 1rem;
+    font-size: 1.6rem;
+}
+.frmbtn{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #067c7c;
+}
+.formimagecol{
+    position: relative;
+}
+.formnumber{
+    background: #223a66;
+    color: #ffffff;
+    padding: 2rem 4rem;
+    position: absolute;
+    bottom: 3rem;
+    right: -3rem;
+}
+
+
+.cardslider{
+    margin: 5rem 0rem;
+}
+.cardslider h3{
+    font-size: 4.4rem;
+    color: #223a66;
+    font-weight: 700;
+}
+.cardslider hr{
+    width: 5rem;
+    background: #d36c2b;
+    height: 3px;
+}
+
+
+
+
 .footer .col{
     margin: 2rem 0rem;
 }
@@ -200,15 +257,25 @@ p {
     margin-bottom: 4rem;
     line-height: 3rem;
 }
-.footer .mediaicon i{
-    font-size: 16px;
+.mediaicon {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1rem;
+    /* color: #6f8ba4; */
     background-color: #6f8ba4;
-    padding: 2rem;
-}
-.footer.mediaicon{
-    font-size: 16px;
-    background-color: #6f8ba4;
+    padding: 3rem;
     cursor: pointer;
+}
+.cardfooter .mediaicon {
+    height: 3rem;
+    width: 3rem;
+    background-color: #6f8ba4;
+    padding: 2.5rem;
+    cursor: pointer;
+    margin: 1rem;
+}
+.cardfooter .mediaicon i{
+    font-size: 1.6rem;
 }
 .contacticon{
     font-size: 1.6rem;
