@@ -213,4 +213,7 @@ footer {
     .captchabox button{
         margin-left: 2rem;
     }
+    .footericonparabox p span{
+font-size: 1.7rem;
+    }
 }
