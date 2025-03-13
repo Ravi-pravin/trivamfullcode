@@ -55,9 +55,11 @@ svg {
     display: block;
     max-width: 100%;
 }
-ul{
+
+ul {
     list-style-type: none;
 }
+
 :root {
     --primaryColor: #BE9C79;
     --secondaryColor: #d5a637;
@@ -197,23 +199,26 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .botverification{
+    .botverification {
         display: flex;
         flex-direction: column;
         align-items: start;
         justify-content: start;
     }
-    .captchabox{
+
+    .captchabox {
         display: flex;
         align-items: center;
         justify-content: start;
         padding-left: 2rem;
         width: 100%;
     }
-    .captchabox button{
+
+    .captchabox button {
         margin-left: 2rem;
     }
-    .footericonparabox p span{
-font-size: 1.7rem;
+
+    .footericonparabox p span {
+        font-size: 1.7rem;
     }
 }
