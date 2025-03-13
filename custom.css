@@ -198,6 +198,7 @@ p {
     font-family: var(--ffPrimary);
     color: #662222;
     font-size: 4.4rem;
+    font-weight: 700;
 }
 .formsection p{
     color: #6f8ba4;
