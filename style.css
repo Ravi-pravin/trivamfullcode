@@ -196,14 +196,6 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
     }
-    .aboutUs h3{
-        font-size: 1.8rem;
-        margin: 3rem 0rem;
-    }
-    .formsection .col h3{
-        font-size: 1.8rem;
-        margin: 3rem 0rem;
-    }
 
     .botverification{
         display: flex;
