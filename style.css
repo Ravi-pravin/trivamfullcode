@@ -198,6 +198,9 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
     }
+    .formcol{
+        padding: 3rem 0rem;
+    }
 
     .botverification {
         display: flex;
