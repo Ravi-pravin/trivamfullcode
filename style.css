@@ -198,11 +198,22 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
     }
-    .aboutusheading{
+    /* .navBarbottomSection{
+        position: relative;
+    } */
+
+    .navBarbottomSection i {
+        position: relative;
+        right: -6rem;
+        top: 0.5rem;
+    }
+
+    .aboutusheading {
         margin-top: 10rem;
         margin-bottom: 10rem;
     }
-    .formheading{
+
+    .formheading {
         margin-top: 5rem;
         margin-bottom: 2rem;
     }
